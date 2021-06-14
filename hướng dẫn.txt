@@ -1,0 +1,16 @@
+1. Cài python: cài bản 3.9.5
+2. cài pip: 
+	https://bootstrap.pypa.io/get-pip.py
+	=> lưu ra file => install_pip.py
+	=> set PATH cho pip: setx PATH "%PATH%;C:\Users\dungv\AppData\Local\Programs\Python\Python395\Scripts"
+	=> go do cmd => py install_pip.py
+3. cài module pynput: pip install pynput
+4. file a.pyw
+5. tạo file bat: 
+	"
+		start "" "C:\Program Files\Google\Chrome\Application\chrome.exe"
+		E:
+		cd project
+		start "" "E:\project\a.pyw"
+	"
+6. thay đổi target trên icon shortcut, sửa thành file bat
